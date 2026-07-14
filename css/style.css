@@ -1,78 +1,99 @@
-/* =========================
-   Beta Power Engineering
-   Professional Corporate Style
-========================= */
+/* =====================================
+   BETA POWER ENGINEERING
+   Corporate Engineering Website Style
+===================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    color: #444;
-    line-height: 1.8;
-    font-size: 16px;
-    background: #ffffff;
+
+    font-family:'Open Sans', sans-serif;
+
+    color:#444;
+
+    line-height:1.7;
+
+    background:#ffffff;
+
 }
 
 
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    letter-spacing: 0.2px;
+
+h1,
+h2,
+h3 {
+
+    font-family:'Montserrat', sans-serif;
+
 }
 
 
-/* =========================
-   Header
-========================= */
 
 header {
 
-    background: #003b73;
-    color: white;
+    width:100%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background:#ffffff;
 
-    padding: 20px 8%;
+    display:flex;
 
-    position: sticky;
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 8%;
+
+    position:sticky;
+
     top:0;
 
-    z-index:1000;
+    z-index:999;
+
+    box-shadow:0 3px 15px rgba(0,0,0,0.08);
 
 }
+
 
 
 .logo {
 
-    font-size: 24px;
+    color:#003b73;
+
+    font-size:22px;
+
     font-weight:700;
-    letter-spacing:1px;
+
+    letter-spacing:0.5px;
 
 }
+
 
 
 nav a {
 
-    color:white;
     text-decoration:none;
 
-    margin-left:25px;
+    color:#333;
 
-    font-weight:500;
+    margin-left:28px;
 
-    transition:0.3s;
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
 
 }
+
 
 
 nav a:hover {
@@ -83,311 +104,577 @@ nav a:hover {
 
 
 
-/* =========================
-   Hero Section
-========================= */
+
+
+/* =============================
+ HERO SECTION
+============================= */
 
 
 .hero {
 
-    min-height:80vh;
+
+    min-height:85vh;
+
 
     background:
 
+
     linear-gradient(
-        rgba(0,59,115,0.75),
-        rgba(0,59,115,0.75)
+        rgba(0,45,90,.75),
+        rgba(0,45,90,.75)
     ),
+
 
     url("https://images.unsplash.com/photo-1581092160562-40aa08e78837")
 
     center/cover;
 
 
+
     display:flex;
+
 
     align-items:center;
 
+
     padding:8%;
 
-    color:white;
+
 
 }
+
 
 
 .hero-content {
 
     max-width:850px;
 
+    color:white;
+
 }
+
 
 
 .hero h1 {
 
-    font-size:44px;
+
+    font-size:48px;
+
     line-height:1.25;
-    font-weight:600;
+
+    font-weight:700;
+
     margin-bottom:25px;
 
+
 }
+
 
 
 .hero p {
 
-    font-size:20px;
 
-    margin-bottom:30px;
+    font-size:19px;
+
+    max-width:750px;
+
+    margin-bottom:35px;
+
 
 }
 
-
-/* Buttons */
 
 
 .btn {
 
+
     display:inline-block;
+
 
     background:#f7931e;
 
+
     color:white;
 
-    padding:14px 35px;
 
-    border-radius:5px;
+    padding:14px 32px;
+
 
     text-decoration:none;
 
+
+    border-radius:4px;
+
+
     font-weight:600;
+
 
     transition:.3s;
 
+
 }
+
 
 
 .btn:hover {
 
+
     background:#d87500;
+
 
 }
 
 
 
-/* =========================
- Sections
-========================= */
+
+/* =============================
+ GENERAL SECTIONS
+============================= */
 
 
 section {
 
-    padding:80px 8%;
+
+    padding:85px 8%;
+
 
 }
+
 
 
 section h2 {
 
+
     text-align:center;
+
+
     color:#003b73;
-    font-size:32px;
+
+
+    font-size:34px;
+
+
     font-weight:600;
-    margin-bottom:35px;
+
+
+    margin-bottom:45px;
+
 
 }
 
 
-
-/* About */
 
 
 .about p {
 
-    max-width:900px;
+
+    max-width:950px;
+
 
     margin:auto;
 
+
     text-align:center;
 
-    font-size:18px;
+
+    font-size:17px;
+
 
 }
 
 
 
-/* =========================
- Cards
-========================= */
+
+
+
+/* =============================
+ CARDS
+============================= */
 
 
 .cards {
 
+
     display:grid;
+
 
     grid-template-columns:
 
-    repeat(auto-fit,minmax(260px,1fr));
+
+    repeat(auto-fit,minmax(280px,1fr));
+
 
     gap:30px;
 
+
 }
+
 
 
 .card {
 
-    background:white;
 
-    padding:30px;
+    background:#fff;
 
-    border-radius:10px;
+
+    padding:35px;
+
+
+    border-radius:8px;
 
 
     box-shadow:
 
-    0 5px 25px rgba(0,0,0,.12);
+    0 8px 25px rgba(0,0,0,.1);
 
 
     transition:.3s;
 
+
 }
+
 
 
 .card:hover {
 
+
     transform:translateY(-8px);
 
+
 }
+
 
 
 .card h3 {
 
+
     color:#003b73;
+
+
     font-size:21px;
-    font-weight:600;
-    margin-bottom:12px;
+
+
+    margin-bottom:15px;
+
 
 }
+/* =============================
+   INDUSTRIES SECTION
+============================= */
 
 
-
-/* =========================
- Why Section
-========================= */
-
-
-.why {
+.industries {
 
     background:#f5f8fb;
 
 }
 
 
+
+.industries .card {
+
+    text-align:center;
+
+}
+
+
+
+
+/* =============================
+   SERVICES SECTION
+============================= */
+
+
+.services {
+
+    background:#ffffff;
+
+}
+
+
+
+
+
+/* =============================
+   WHY BETA POWER
+============================= */
+
+
+.why {
+
+
+    background:#003b73;
+
+
+    color:white;
+
+
+}
+
+
+
+.why h2 {
+
+
+    color:white;
+
+
+}
+
+
+
 .why ul {
 
-    max-width:700px;
+
+    max-width:800px;
+
 
     margin:auto;
 
+
 }
+
 
 
 .why li {
 
-    margin:15px;
+
+    list-style:none;
+
+
+    padding:15px;
+
 
     font-size:18px;
+
+
+    border-bottom:1px solid rgba(255,255,255,.2);
+
 
 }
 
 
 
-/* =========================
- Contact Banner
-========================= */
+
+.why li:before {
+
+
+    content:"✓";
+
+
+    color:#f7931e;
+
+
+    font-weight:bold;
+
+
+    margin-right:12px;
+
+
+}
+
+
+
+
+
+/* =============================
+   CONTACT BANNER
+============================= */
 
 
 .contact-banner {
 
-    background:#003b73;
 
-    color:white;
+    background:
+
+
+    linear-gradient(
+        rgba(0,59,115,.95),
+        rgba(0,59,115,.95)
+    );
+
 
     text-align:center;
 
+
+    color:white;
+
+
 }
+
 
 
 .contact-banner h2 {
 
+
     color:white;
+
 
 }
 
 
 
-/* =========================
- Footer
-========================= */
+.contact-banner p {
+
+
+    font-size:18px;
+
+
+}
+
+
+
+
+
+/* =============================
+   FOOTER
+============================= */
 
 
 footer {
 
-    background:#00264d;
+
+    background:#001f3f;
+
 
     color:white;
 
+
     text-align:center;
 
-    padding:25px;
+
+    padding:30px;
+
+
+    font-size:14px;
+
 
 }
 
 
 
-/* =========================
- Mobile
-========================= */
+
+
+/* =============================
+   MOBILE DESIGN
+============================= */
 
 
 @media(max-width:768px){
 
 
+
 header {
+
 
     flex-direction:column;
 
+
+    padding:20px;
+
+
 }
+
+
+
+.logo {
+
+
+    margin-bottom:15px;
+
+
+}
+
 
 
 nav {
 
-    margin-top:20px;
+
+    text-align:center;
+
 
 }
+
 
 
 nav a {
 
-    color:white;
-    text-decoration:none;
-    margin-left:25px;
-    font-size:15px;
-    font-weight:500;
+
+    display:inline-block;
+
+
+    margin:8px;
+
+
+    font-size:14px;
+
 
 }
+
+
+
+.hero {
+
+
+    min-height:70vh;
+
+
+    padding:10% 6%;
+
+
+}
+
 
 
 .hero h1 {
 
-    font-size:35px;
+
+    font-size:34px;
+
 
 }
+
 
 
 .hero p {
 
-    font-size:17px;
+
+    font-size:16px;
+
 
 }
+
+
+
+section {
+
+
+    padding:60px 6%;
+
+
+}
+
+
+
+section h2 {
+
+
+    font-size:28px;
+
+
+}
+
+
+
+.card {
+
+
+    padding:25px;
+
+
+}
+
 
 
 }
