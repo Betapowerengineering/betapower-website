@@ -1,1 +1,390 @@
+/* =========================
+   Beta Power Engineering
+   Professional Corporate Style
+========================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #333;
+    line-height: 1.7;
+    background: #ffffff;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* =========================
+   Header
+========================= */
+
+header {
+
+    background: #003b73;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    position: sticky;
+    top:0;
+
+    z-index:1000;
+
+}
+
+
+.logo {
+
+    font-size: 24px;
+    font-weight:700;
+    letter-spacing:1px;
+
+}
+
+
+nav a {
+
+    color:white;
+    text-decoration:none;
+
+    margin-left:25px;
+
+    font-weight:500;
+
+    transition:0.3s;
+
+}
+
+
+nav a:hover {
+
+    color:#f7931e;
+
+}
+
+
+
+/* =========================
+   Hero Section
+========================= */
+
+
+.hero {
+
+    min-height:80vh;
+
+    background:
+
+    linear-gradient(
+        rgba(0,59,115,0.75),
+        rgba(0,59,115,0.75)
+    ),
+
+    url("https://images.unsplash.com/photo-1581092160562-40aa08e78837")
+
+    center/cover;
+
+
+    display:flex;
+
+    align-items:center;
+
+    padding:8%;
+
+    color:white;
+
+}
+
+
+.hero-content {
+
+    max-width:850px;
+
+}
+
+
+.hero h1 {
+
+    font-size:52px;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+
+}
+
+
+.hero p {
+
+    font-size:20px;
+
+    margin-bottom:30px;
+
+}
+
+
+/* Buttons */
+
+
+.btn {
+
+    display:inline-block;
+
+    background:#f7931e;
+
+    color:white;
+
+    padding:14px 35px;
+
+    border-radius:5px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+.btn:hover {
+
+    background:#d87500;
+
+}
+
+
+
+/* =========================
+ Sections
+========================= */
+
+
+section {
+
+    padding:80px 8%;
+
+}
+
+
+section h2 {
+
+    text-align:center;
+
+    color:#003b73;
+
+    font-size:36px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+/* About */
+
+
+.about p {
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    font-size:18px;
+
+}
+
+
+
+/* =========================
+ Cards
+========================= */
+
+
+.cards {
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+}
+
+
+.card {
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+
+    box-shadow:
+
+    0 5px 25px rgba(0,0,0,.12);
+
+
+    transition:.3s;
+
+}
+
+
+.card:hover {
+
+    transform:translateY(-8px);
+
+}
+
+
+.card h3 {
+
+    color:#003b73;
+
+    margin-bottom:15px;
+
+}
+
+
+
+/* =========================
+ Why Section
+========================= */
+
+
+.why {
+
+    background:#f5f8fb;
+
+}
+
+
+.why ul {
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+
+.why li {
+
+    margin:15px;
+
+    font-size:18px;
+
+}
+
+
+
+/* =========================
+ Contact Banner
+========================= */
+
+
+.contact-banner {
+
+    background:#003b73;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+
+.contact-banner h2 {
+
+    color:white;
+
+}
+
+
+
+/* =========================
+ Footer
+========================= */
+
+
+footer {
+
+    background:#00264d;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+}
+
+
+
+/* =========================
+ Mobile
+========================= */
+
+
+@media(max-width:768px){
+
+
+header {
+
+    flex-direction:column;
+
+}
+
+
+nav {
+
+    margin-top:20px;
+
+}
+
+
+nav a {
+
+    display:block;
+
+    margin:10px;
+
+}
+
+
+.hero h1 {
+
+    font-size:35px;
+
+}
+
+
+.hero p {
+
+    font-size:17px;
+
+}
+
+
+}
