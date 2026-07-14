@@ -1,161 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Beta Power Engineering | Electrical & Automation Solutions</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+    <link rel="stylesheet" href="css/style.css">
 
-        body {
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background: #003b73;
-            color: white;
-            padding: 20px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header h1 {
-            font-size: 26px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-        }
-
-        .hero {
-            height: 80vh;
-            background: linear-gradient(
-                rgba(0,59,115,0.75),
-                rgba(0,59,115,0.75)
-            ),
-            url("https://images.unsplash.com/photo-1581092160562-40aa08e78837")
-            center/cover;
-
-            display: flex;
-            align-items: center;
-            padding: 8%;
-            color: white;
-        }
-
-        .hero h2 {
-            font-size: 45px;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 20px;
-            max-width: 700px;
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 25px;
-            background: #f7931e;
-            color: white;
-            padding: 12px 25px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        section {
-            padding: 60px 8%;
-        }
-
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-            gap: 25px;
-        }
-
-        .card {
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 5px 20px #ddd;
-        }
-
-        .card h3 {
-            color:#003b73;
-            margin-bottom:15px;
-        }
-
-        footer {
-            background:#00264d;
-            color:white;
-            text-align:center;
-            padding:25px;
-        }
-
-    </style>
 </head>
 
 <body>
 
 <header>
-    <h1>Beta Power Engineering</h1>
+    <div class="logo">
+        BETA POWER ENGINEERING
+    </div>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Products</a>
-        <a href="#">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
     </nav>
 </header>
 
 
-<div class="hero">
+<section class="hero">
 
-<div>
-<h2>Electrical & Automation Solutions For Industry</h2>
+    <div class="hero-content">
 
-<p>
-Beta Power Engineering provides complete electrical,
-instrumentation, automation and motion control solutions
-including supply, installation, commissioning and after-sales services.
-</p>
+        <h1>
+            Complete Electrical & Automation Solutions
+        </h1>
 
-<a class="btn" href="#">Discover Our Solutions</a>
+        <p>
+            Beta Power Engineering provides integrated electrical,
+            instrumentation, automation and motion control solutions
+            including supply, installation, commissioning, startup
+            and after-sales services.
+        </p>
 
-</div>
+        <a href="contact.html" class="btn">
+            Request A Solution
+        </a>
 
-</div>
+    </div>
+
+</section>
 
 
-<section>
+<section class="about">
+
+    <h2>About Beta Power Engineering</h2>
+
+    <p>
+        Beta Power Engineering is a leading company in the electrical
+        and instrumentation market, providing complete solutions and
+        products with special focus on motion and motion control systems.
+        We support industries with reliable products, engineering
+        solutions and technical services.
+    </p>
+
+</section>
+
+
+
+<section class="scope">
 
 <h2>Our Scope</h2>
 
-<br>
+<div class="cards">
 
-<div class="services">
 
 <div class="card">
 <h3>Automation</h3>
 <p>
-Industrial automation solutions helping customers improve
-process control and efficiency.
+Industrial automation solutions for better process control,
+efficiency and productivity.
 </p>
 </div>
 
 
 <div class="card">
-<h3>Motion Control</h3>
+<h3>Motion & Motion Control</h3>
 <p>
-Motors, starters and motion control products with reliable solutions.
+Motors, starters and motion control products for industrial applications.
+</p>
+</div>
+
+
+<div class="card">
+<h3>Power Electronics</h3>
+<p>
+Reliable power electronic solutions for industrial systems.
 </p>
 </div>
 
@@ -163,7 +104,7 @@ Motors, starters and motion control products with reliable solutions.
 <div class="card">
 <h3>Instrumentation</h3>
 <p>
-Measurement and control solutions for industrial applications.
+Measurement, monitoring and control solutions.
 </p>
 </div>
 
@@ -171,33 +112,116 @@ Measurement and control solutions for industrial applications.
 <div class="card">
 <h3>LV & MV Products</h3>
 <p>
-Low and medium voltage electrical products and solutions.
+Low voltage and medium voltage electrical products and solutions.
 </p>
 </div>
+
+
+<div class="card">
+<h3>Cables & Lighting</h3>
+<p>
+Cables, cable accessories and complete lighting solutions.
+</p>
+</div>
+
 
 </div>
 
 </section>
 
 
-<section>
 
-<h2>Why Beta Power Engineering?</h2>
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Product & Solution Supply</h3>
+<p>
+Technical supply of electrical and automation products.
+</p>
+</div>
+
+
+<div class="card">
+<h3>Installation</h3>
+<p>
+Professional installation and integration services.
+</p>
+</div>
+
+
+<div class="card">
+<h3>Commissioning & Startup</h3>
+<p>
+Testing, commissioning and startup support.
+</p>
+</div>
+
+
+<div class="card">
+<h3>After Sales Services</h3>
+<p>
+Technical support and maintenance assistance.
+</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<section class="why">
+
+<h2>Why Choose Beta Power Engineering?</h2>
+
+<ul>
+
+<li>Quality-focused engineering solutions</li>
+
+<li>Technical expertise and industrial experience</li>
+
+<li>Complete project execution capability</li>
+
+<li>Customer satisfaction and continuous support</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="contact-banner">
+
+<h2>
+Need an Industrial Solution?
+</h2>
 
 <p>
-We focus on quality, customer satisfaction and technical support
-to provide complete solutions for diversified industrial markets.
+Contact our engineering team today.
 </p>
 
+<a href="contact.html" class="btn">
+Contact Us
+</a>
+
 </section>
+
 
 
 <footer>
 
+<p>
 © 2026 Beta Power Engineering. All Rights Reserved.
+</p>
 
 </footer>
 
 
 </body>
+
 </html>
