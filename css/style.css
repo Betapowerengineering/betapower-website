@@ -15,14 +15,17 @@
 
 body {
     font-family: 'Open Sans', Arial, sans-serif;
-    color: #333;
-    line-height: 1.7;
+    color: #444;
+    line-height: 1.8;
+    font-size: 16px;
     background: #ffffff;
 }
 
 
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2px;
 }
 
 
@@ -121,10 +124,9 @@ nav a:hover {
 
 .hero h1 {
 
-    font-size:52px;
-
-    line-height:1.2;
-
+    font-size:44px;
+    line-height:1.25;
+    font-weight:600;
     margin-bottom:25px;
 
 }
@@ -186,12 +188,10 @@ section {
 section h2 {
 
     text-align:center;
-
     color:#003b73;
-
-    font-size:36px;
-
-    margin-bottom:40px;
+    font-size:32px;
+    font-weight:600;
+    margin-bottom:35px;
 
 }
 
@@ -261,8 +261,9 @@ section h2 {
 .card h3 {
 
     color:#003b73;
-
-    margin-bottom:15px;
+    font-size:21px;
+    font-weight:600;
+    margin-bottom:12px;
 
 }
 
@@ -366,9 +367,11 @@ nav {
 
 nav a {
 
-    display:block;
-
-    margin:10px;
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:15px;
+    font-weight:500;
 
 }
 
