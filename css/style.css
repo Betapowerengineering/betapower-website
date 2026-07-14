@@ -64,15 +64,11 @@ header {
 
 
 
-.logo {
+.logo img {
 
-    color:#003b73;
+    width:220px;
 
-    font-size:22px;
-
-    font-weight:700;
-
-    letter-spacing:0.5px;
+    height:auto;
 
 }
 
